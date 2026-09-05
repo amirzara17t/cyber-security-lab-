@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+ char incident_ID [50] ;
+ char analyst_name[50];
+ int affected_system , cost , total_cost;
+ float downtime;
+ printf("Enter Incident ID ");
+ scanf("%s",&incident_ID);
+ printf("Enter Analyst name ");
+ scanf("%s",&analyst_name);
+ printf("Enter Number of affected systems ");
+scanf("%d",&affected_system);
+ printf("Enter recovery cost");
+ scanf("%d",&cost);
+ printf("Enter downtime in hours");
+scanf("%f", &downtime);
+ printf("Incident ID:%s\n ", incident_ID) ;
+ printf("Analyst name: %s\n", analyst_name);
+ printf("Number of affected systems:%d\n", affected_system);
+ printf("Recovery cost: %d\n", cost);
+ printf("Total cost:%d\n", affected_system*cost);
+ printf("Downtime : %.2f\n", downtime);
+ return 0;
+}
