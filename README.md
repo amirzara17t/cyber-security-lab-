@@ -1,6 +1,6 @@
 # cyber-security-lab-
 programming fundamental lab tasks
-Student name: Zara Amir
-Student ID:1234
-Program: BS CYS
+Student name: Zara Amir\n
+Student ID:1234\n
+Program: BS CYS\n
 Lab section: A
