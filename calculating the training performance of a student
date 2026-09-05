@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main()
+{
+    char name[50];
+    int ID , completed_labs , total_labs , quiz , assignment , project , score;
+    double lab_completion_percentage;
+    printf("Enter student name");
+    scanf("%s" , &name);
+    printf("Enter student ID");
+    scanf("%d" , &ID);
+    printf("Enter number of completed labs");
+    scanf("%d" ,&completed_labs );
+    printf("Enter total number of labs");
+    scanf("%d" , &total_labs );
+    printf("Enter quiz marks");
+    scanf("%d" , &quiz);
+    printf("Enter assignment marks");
+    scanf("%d", &assignment);
+    printf("Enter project marks");
+    scanf("%d" , &project);
+    printf("student name is :%s\n" , name);
+    printf(" student ID is :%d\n" , ID);
+    printf(" number of completed labs are :%d\n" , completed_labs);
+    printf(" total number of labs are: %d\n" , total_labs);
+    printf(" quiz marks  :%d\n" , quiz);
+    printf(" assignment marks :%d\n" , assignment);
+    printf(" project marks :%d\n" , project);
+    printf(" lab completion percentage is %.2f\n", ((double)completed_labs/total_labs)*100);
+    printf("total acedamic score is:%d\n" , quiz+assignment+project);
+    return 0;
+
+}
